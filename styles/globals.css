@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper-button-next,
+.swiper-button-prev {
+	padding: 25px;
+	color: #fff !important;
+	fill: white !important;
+	stroke: white !important;
+}
+
+.topbar {
+	z-index: 99 !important;
+	background-color: transparent !important;
+	position: absolute;
+}
