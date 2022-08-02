@@ -2,7 +2,7 @@ import Image from "next/image";
 import { VscCallIncoming } from "react-icons/vsc";
 import { MdOutlinePlace } from "react-icons/md";
 import { HiOutlineMail } from "react-icons/hi";
-import Menu from "./dropdown/menu";
+import Menu from "./dropdown/Menu";
 import {AboutData, GalleryData, ProgramsData} from "./dropdown/MenuItems";
 
 function Header() {
