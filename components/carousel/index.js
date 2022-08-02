@@ -32,6 +32,7 @@ function Carousel() {
 					<SliderImage image="https://images.pexels.com/photos/267507/pexels-photo-267507.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
 				</SwiperSlide>
 			</Swiper>
+			
 		</div>
 	);
 }

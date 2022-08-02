@@ -1,7 +1,7 @@
 function SliderImage({ image }) {
 	return (
 		<div className="h-96">
-			<img src={image} className="w-full h-full object-cover"></img>
+			<img src={image} className="w-full h-full object-cover"/>
 		</div>
 	);
 }
