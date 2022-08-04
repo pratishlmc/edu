@@ -5,6 +5,7 @@
 
 body {
 	font-family: "Inter", sans-serif;
+	height: 1111px;
 }
 
 .swiper-button-next,
@@ -26,9 +27,10 @@ body {
 	position: absolute;
 }
 
-.sticky-obj {
+.abslute_obj {
 	position: sticky;
 	bottom: 40px;
+	right: 20px;
 }
 
 .f-inter {
