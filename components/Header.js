@@ -6,7 +6,6 @@ import Menu from "./dropdown/Menu";
 import {AboutData, GalleryData, ProgramsData} from "./dropdown/MenuItems";
 
 function Header() {
-
 	return (
 		<div className="topbar w-full h-36 p-4 px-32">
 			<div className="flex justify-between items-center">
@@ -53,7 +52,7 @@ function Header() {
 					<Menu menu_title="About us" contents={AboutData} />
 					<Menu menu_title="Study Programs" contents={ProgramsData} />
 					<span className="text-gray-600 hover:text-orange-500 cursor-pointer">
-						Events & Notices
+						Events & News
 					</span>
 					<Menu menu_title="Gallery" contents={GalleryData} />
 					<span className="text-gray-600 hover:text-orange-500 cursor-pointer">

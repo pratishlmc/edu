@@ -1,6 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+body {
+	font-family: "Inter", sans-serif;
+}
 
 .swiper-button-next,
 .swiper-button-prev {
@@ -19,4 +24,13 @@
 .drawerMenu {
 	z-index: 90 !important;
 	position: absolute;
+}
+
+.sticky-obj {
+	position: sticky;
+	bottom: 40px;
+}
+
+.f-inter {
+	font-family: "Inter", sans-serif;
 }
